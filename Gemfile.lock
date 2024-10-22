@@ -1,11 +1,11 @@
 GIT
   remote: https://github.com/lynndylanhurley/devise_token_auth
-  revision: 812711e4776f2eab2de8a057bd5befc023fb666b
+  revision: b7fcfdf98a84a5d2ae22e005eaa372a668cc9c76
   specs:
-    devise_token_auth (1.2.3)
+    devise_token_auth (1.2.4)
       bcrypt (~> 3.0)
       devise (> 3.5.2, < 5)
-      rails (>= 4.2.0, < 7.3)
+      rails (>= 4.2.0, < 8.1)
 
 GEM
   remote: https://rubygems.org/
@@ -136,10 +136,10 @@ GEM
     erubi (1.13.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    i18n (1.14.5)
+    i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     io-console (0.7.2)
-    irb (1.14.0)
+    irb (1.14.1)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     json (2.7.2)
@@ -157,7 +157,7 @@ GEM
     mini_mime (1.1.5)
     minitest (5.25.1)
     msgpack (1.7.2)
-    net-imap (0.4.16)
+    net-imap (0.5.0)
       date
       net-protocol
     net-pop (0.1.2)
@@ -184,7 +184,7 @@ GEM
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.1.7)
+    rack (3.1.8)
     rack-session (2.0.0)
       rack (>= 3.0.0)
     rack-test (2.1.0)
@@ -270,11 +270,11 @@ GEM
     useragent (0.16.10)
     warden (1.2.9)
       rack (>= 2.0.9)
-    webrick (1.8.1)
+    webrick (1.8.2)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.18)
+    zeitwerk (2.7.1)
 
 PLATFORMS
   aarch64-linux
